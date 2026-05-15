@@ -3,51 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Something is Coming for Netra...</title>
+    <title>Netra's Birthday Bash!</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Liquid Background Blobs -->
-    <div class="blob-container">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="blob blob-3"></div>
-    </div>
+    <!-- Banners -->
+    <div class="banner-decor"></div>
 
-    <main class="container">
-        <section class="welcome-section">
-            <p class="subtitle fade-in">Mark your calendars for the most beautiful celebration yet.</p>
-        </section>
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">OUR STORY</a></li>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">PHOTOS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <section class="countdown-container glass">
-            <div class="timer">
-                <div class="time-group">
-                    <span id="days">00</span>
-                    <label>Days</label>
+    <main class="hero-container">
+        <div class="hero-content">
+            <div class="text-side">
+                <h1 class="cursive-title">Birthday!</h1>
+                <h2 class="sub-title">PARTY PLANNERS</h2>
+                <p class="description">Something special is coming for Netra. Mark your calendars for the most beautiful celebration yet.</p>
+                <button class="btn-rsvp">BOOK NOW</button>
+            </div>
+
+            <div class="visual-side">
+                <div class="cake-illustration">
+                    <!-- Simple SVG/CSS Cake Placeholder -->
+                    <div class="cake">
+                        <div class="candle"></div>
+                        <div class="cream"></div>
+                    </div>
                 </div>
-                <div class="separator">:</div>
-                <div class="time-group">
-                    <span id="hours">00</span>
-                    <label>Hours</label>
-                </div>
-                <div class="separator">:</div>
-                <div class="time-group">
-                    <span id="minutes">00</span>
-                    <label>Min</label>
-                </div>
-                <div class="separator">:</div>
-                <div class="time-group">
-                    <span id="seconds">00</span>
-                    <label>Sec</label>
+            </div>
+        </div>
+
+        <section class="countdown-section">
+            <div class="countdown-container glass">
+                <div class="timer">
+                    <div class="time-group"><span id="days">00</span><label>Days</label></div>
+                    <div class="separator">:</div>
+                    <div class="time-group"><span id="hours">00</span><label>Hours</label></div>
+                    <div class="separator">:</div>
+                    <div class="time-group"><span id="minutes">00</span><label>Min</label></div>
+                    <div class="separator">:</div>
+                    <div class="time-group"><span id="seconds">00</span><label>Sec</label></div>
                 </div>
             </div>
         </section>
 
         <footer class="footer">
-            <span class="liquid-glass-footer">Made with love by shree ðŸ’œ âœ¨</span>
+            <span class="signature">Made with love by shree ðŸ’œ âœ¨</span>
         </footer>
     </main>
 
