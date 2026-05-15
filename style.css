@@ -1,7 +1,7 @@
 :root {
     --primary-purple: #7451f8;
     --primary-blue: #4a90e2;
-    --bg-gradient: linear-gradient(135deg, #f8f6ff 0%, #ffffff 100%);
+    --bg-gradient: linear-gradient(135deg, #f2efff 0%, #ffffff 100%);
     --card-physics: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
     --card-chemistry: linear-gradient(135deg, #2193b0 0%, #6dd5ed 100%);
     --card-math: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
