@@ -3,66 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netra's Birthday Bash!</title>
+    <title>Netra's Birthday Dashboard</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Dancing+Script:wght@700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Banners -->
-    <div class="banner-decor"></div>
-
-    <header class="navbar">
-        <nav>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">OUR STORY</a></li>
-                <li><a href="#">MENU</a></li>
-                <li><a href="#">PHOTOS</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-        </nav>
+    <header class="app-bar">
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="notif-btn">
+            <i class="fas fa-bell"></i>
+        </div>
     </header>
 
-    <main class="hero-container">
-        <div class="hero-content">
-            <div class="text-side">
-                <h1 class="cursive-title">Birthday!</h1>
-                <h2 class="sub-title">PARTY PLANNERS</h2>
-                <p class="description">Something special is coming for Netra. Mark your calendars for the most beautiful celebration yet.</p>
-                <button class="btn-rsvp">BOOK NOW</button>
-            </div>
+    <section class="greeting">
+        <h3>Good Evening</h3>
+        <h1>Netra</h1>
+    </section>
 
-            <div class="visual-side">
-                <div class="cake-illustration">
-                    <!-- Simple SVG/CSS Cake Placeholder -->
-                    <div class="cake">
-                        <div class="candle"></div>
-                        <div class="cream"></div>
-                    </div>
-                </div>
+    <div class="analysis-card">
+        <i class="fas fa-chart-line"></i>
+        <span>Birthday Analysis</span>
+    </div>
+
+    <section class="subject-grid">
+        <div class="subject-card physics">
+            <i class="fas fa-gift"></i>
+            <span>Surprises</span>
+        </div>
+        <div class="subject-card chemistry">
+            <i class="fas fa-camera"></i>
+            <span>Memories</span>
+        </div>
+        <div class="subject-card math">
+            <i class="fas fa-cake-candles"></i>
+            <span>Party</span>
+        </div>
+        <div class="subject-card biology">
+            <i class="fas fa-heart"></i>
+            <span>Wishes</span>
+        </div>
+    </section>
+
+    <h2 class="section-title">Recently Featured</h2>
+    
+    <div class="featured-card">
+        <div class="featured-content">
+            <div class="featured-icon">
+                ðŸ§ 
+            </div>
+            <div class="featured-text">
+                <h4>Birthday Countdown</h4>
+                <p>Finding your special day...</p>
             </div>
         </div>
+        <div class="timer-display">
+            <div class="time" id="countdown-compact">00:00:00</div>
+            <div class="label" id="days-compact">000 Days to go</div>
+        </div>
+    </div>
 
-        <section class="countdown-section">
-            <div class="countdown-container glass">
-                <div class="timer">
-                    <div class="time-group"><span id="days">00</span><label>Days</label></div>
-                    <div class="separator">:</div>
-                    <div class="time-group"><span id="hours">00</span><label>Hours</label></div>
-                    <div class="separator">:</div>
-                    <div class="time-group"><span id="minutes">00</span><label>Min</label></div>
-                    <div class="separator">:</div>
-                    <div class="time-group"><span id="seconds">00</span><label>Sec</label></div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="footer">
-            <span class="signature">Made with love by shree ðŸ’œ âœ¨</span>
-        </footer>
-    </main>
+    <footer class="footer">
+        <span>Made with love by shree ðŸ’œ âœ¨</span>
+    </footer>
 
     <script src="script.js"></script>
 </body>
